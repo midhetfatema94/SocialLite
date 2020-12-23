@@ -64,7 +64,7 @@ struct UserDetailView: View {
     }
     
     func getUser(id: String) -> User {
-        guard let friendUser = allUsers.filter({$0.id == id}).first else { return User() }
+        guard let friendUser = allUsers.first(where: {$0.id == id}) else { return User() }
         return friendUser
     }
 }
