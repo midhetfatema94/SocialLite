@@ -13,6 +13,9 @@
 		83EDF2EA2593953E00FE326F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83EDF2E92593953E00FE326F /* Preview Assets.xcassets */; };
 		83EDF2EC2593953E00FE326F /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EDF2EB2593953E00FE326F /* Persistence.swift */; };
 		83EDF2EF2593953E00FE326F /* SocialLite.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 83EDF2ED2593953E00FE326F /* SocialLite.xcdatamodeld */; };
+		83EDF2F82593962600FE326F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EDF2F72593962600FE326F /* User.swift */; };
+		83EDF2FB2593964100FE326F /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EDF2FA2593964100FE326F /* Friend.swift */; };
+		83EDF2FE2593AA5500FE326F /* UserDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EDF2FD2593AA5500FE326F /* UserDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		83EDF2EB2593953E00FE326F /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		83EDF2EE2593953E00FE326F /* SocialLite.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SocialLite.xcdatamodel; sourceTree = "<group>"; };
 		83EDF2F02593953E00FE326F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83EDF2F72593962600FE326F /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		83EDF2FA2593964100FE326F /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
+		83EDF2FD2593AA5500FE326F /* UserDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			children = (
 				83EDF2E22593953B00FE326F /* SocialLiteApp.swift */,
 				83EDF2E42593953B00FE326F /* ContentView.swift */,
+				83EDF2FD2593AA5500FE326F /* UserDetailView.swift */,
+				83EDF2F72593962600FE326F /* User.swift */,
+				83EDF2FA2593964100FE326F /* Friend.swift */,
 				83EDF2E62593953E00FE326F /* Assets.xcassets */,
 				83EDF2EB2593953E00FE326F /* Persistence.swift */,
 				83EDF2F02593953E00FE326F /* Info.plist */,
@@ -147,6 +156,9 @@
 				83EDF2EF2593953E00FE326F /* SocialLite.xcdatamodeld in Sources */,
 				83EDF2EC2593953E00FE326F /* Persistence.swift in Sources */,
 				83EDF2E52593953B00FE326F /* ContentView.swift in Sources */,
+				83EDF2FB2593964100FE326F /* Friend.swift in Sources */,
+				83EDF2FE2593AA5500FE326F /* UserDetailView.swift in Sources */,
+				83EDF2F82593962600FE326F /* User.swift in Sources */,
 				83EDF2E32593953B00FE326F /* SocialLiteApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
